@@ -22,7 +22,7 @@ export default function Greeting() {
         }}
       />
 
-      {name && <h3 style={{ color: "#2c3e50" }}>Hello, {name}!</h3>}
+      {name && <h3 style={{ color: "#2c3e50" }}>Hello {name}!</h3>}
     </div>
   );
 }
